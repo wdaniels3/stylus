@@ -1,0 +1,103 @@
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  /* Adjust the navigation bar to fit on one line */
+  .top-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Adjust the font sizes and spacing for mobile */
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust the profile section for mobile */
+  .profile {
+    text-align: center;
+  }
+  
+  .intro {
+    font-size: 14px;
+  }
+  
+  /* Adjust the skill rows for mobile */
+  .skill-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Adjust the navigation bar to fit on one line */
+  .top-container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Adjust the font sizes and spacing for tablets */
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  /* Adjust the profile section for tablets */
+  .profile {
+    text-align: center;
+  }
+  
+  /* Adjust the skill rows for tablets */
+  .skill-row {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .skill-row img {
+    margin-right: 20px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1025px) {
+  /* Reset any mobile or tablet styles */
+  .top-container, .profile, .skill-row {
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  /* Adjust the font sizes and spacing for desktop */
+  h1 {
+    font-size: 48px;
+    margin: 40px 0;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+  
+  /* Adjust the skill rows for desktop */
+  .skill-row img {
+    margin-right: 40px;
+  }
+}
+```
+
+You can save this CSS code in a separate file named "style5.css" and link it in your HTML file. This code includes media queries to target different screen sizes and adjust the layout, font sizes, and spacing accordingly. It specifically targets mobile devices (max-width: 600px), tablets (min-width: 601px and max-width: 1024px), and desktops (min-width: 1025px).
+
+Feel free to customize and modify the CSS code based on your specific design needs and preferences.
